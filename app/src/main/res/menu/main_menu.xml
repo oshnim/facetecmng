@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="DashBoard"
+            android:icon="@drawable/ic_home">
+
+            <menu>
+
+             <item
+                 android:id="@+id/nav_maths"
+                 android:title="Mathematics"
+                 android:icon="@drawable/ic_maths"/>
+
+                <item
+                    android:id="@+id/nav_science"
+                    android:title="Science"
+                    android:icon="@drawable/ic_science"/>
+
+                <item
+                    android:id="@+id/nav_computing"
+                    android:title="Computing"
+                    android:icon="@drawable/ic_computer"/>
+
+                <item
+                    android:id="@+id/nav_english"
+                    android:title="English"
+                    android:icon="@drawable/ic_english"/>
+
+
+            </menu>
+
+
+        </item>
+
+
+    </group>
+
+    <item android:title="Profile">
+
+        <menu>
+
+           <item
+               android:id="@+id/nav_login"
+               android:title="LogIn"
+               android:icon="@drawable/ic_login"/>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:title="LogOut"
+                android:icon="@drawable/ic_logout"/>
+
+
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".tutor_login"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/tutorLoginImg"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:src="@drawable/account_login_password_key_computer_man_near_vector_male_character_design_concept_landing_page_web_poster_banner_184009994" />
+
+    <TextView
+        android:id="@+id/tutorloginSlogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/cantora_one"
+        android:text="LogIn To Continue"
+        android:textColor="#0B1968"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tutor_slogan"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/cantora_one"
+        android:text="Tutor Login..."
+        android:textColor="#132588"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tutor_username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextColor="#252323">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:textColor="@color/black"
+                android:textColorHint="#3F51B5"
+                android:visibility="visible" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tutor_password"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextColor="#252323"
+            android:layout_marginTop="20dp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tutor_login_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogIn To Continue"
+        android:textColor="#F7F8FB"
+        android:fontFamily="@font/cantora_one"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_btn"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tutor_login_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student LogIn"
+        android:textColor="#FAFAFD"
+        android:fontFamily="@font/cantora_one"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_btn"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/tutor_login_btn3"
+        android:layout_width="241dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="65dp"
+        android:background="@drawable/custom_btn"
+        android:fontFamily="@font/cantora_one"
+        android:text="SignIn To Create An Account"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFD"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
