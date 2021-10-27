@@ -87,12 +87,13 @@
         android:id="@+id/tutor_login_btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LogIn To Continue"
-        android:textColor="#F7F8FB"
+        android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
-        android:textSize="20sp"
+        android:onClick="login"
+        android:text="LogIn To Continue"
         android:textAllCaps="false"
-        android:background="@drawable/custom_btn"/>
+        android:textColor="#F7F8FB"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/tutor_login_btn2"

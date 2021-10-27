@@ -2,12 +2,15 @@ package com.example.attendance_mng;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toolbar;
 
@@ -67,5 +70,20 @@ public class stu_dashboard extends AppCompatActivity {
        }
 
 
+    }
+
+    public void goScience(View view){
+        Intent intent = new Intent(this,stu_science.class);
+        startActivity(intent);
+    }
+
+    public void goMaths(View view){
+        Intent intent = new Intent(this,stu_mathematics.class);
+        startActivity(intent);
+    }
+
+    public void goEnglish(View view){
+        Intent intent = new Intent(this,stu_english.class);
+        startActivity(intent);
     }
 }

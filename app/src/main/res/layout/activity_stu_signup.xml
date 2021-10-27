@@ -33,13 +33,14 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_name"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hintTextColor="#252323">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Name"
@@ -52,7 +53,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_username"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
@@ -60,6 +61,7 @@
             app:hintTextColor="#252323">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="UserName"
@@ -72,7 +74,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_password"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,6 +83,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -92,7 +95,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_con_password"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -101,6 +104,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_con_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Confirm Password"

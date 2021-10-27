@@ -54,6 +54,7 @@
         android:layout_height="59dp"
         android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
+        android:onClick="goHistory"
         android:text="View Student Attendance"
         android:textAllCaps="false"
         android:textColor="#F7F8FB"

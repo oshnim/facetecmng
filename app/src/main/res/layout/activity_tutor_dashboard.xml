@@ -73,6 +73,7 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
+            android:onClick="goMaths"
             app:cardBackgroundColor="@color/white">
 
             <RelativeLayout
@@ -107,7 +108,9 @@
             android:layout_height="match_parent"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            app:cardBackgroundColor="@color/white">
+            android:onClick="goScience"
+            app:cardBackgroundColor="@color/white"
+            >
 
             <RelativeLayout
                 android:layout_width="match_parent"

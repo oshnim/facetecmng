@@ -3,7 +3,9 @@ package com.example.attendance_mng;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -28,5 +30,15 @@ public class tutor_science extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    }
+
+    public void goHistory(View view){
+        SharedPreferences sharePref= PreferenceManager.getDefaultSharedPreferences(tutor_science.this);
+        SharedPreferences.Editor editor = sharePref.edit();
+        editor.putString("Subject","Science");
+        editor.apply();
+
+        Intent intent = new Intent(tutor_science.this, History.class);
+        startActivity(intent);
     }
 }

@@ -33,6 +33,17 @@ public class tutor_dashboard extends AppCompatActivity implements View.OnClickLi
 
     }
 
+    public void goScience(View view){
+        Intent intent = new Intent(tutor_dashboard.this, tutor_science.class);
+        startActivity(intent);
+    }
+
+    public void goMaths(View view){
+        Intent intent = new Intent(tutor_dashboard.this, tutor_maths.class);
+        startActivity(intent);
+    }
+
+
     @Override
     public void onClick(View v) {
 

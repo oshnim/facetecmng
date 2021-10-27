@@ -13,7 +13,6 @@ public class login_cp extends AppCompatActivity {
 
     private Button cp_login_btn1;
     private Button cp_login_btn2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

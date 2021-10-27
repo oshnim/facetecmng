@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.attendance_mng">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Attendance_mng">
-        <activity android:name=".stu_signup"></activity>
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".FaceLogin"
+            android:exported="false" />
+        <activity
+            android:name=".FaceRecActivity"
+            android:exported="false" />
+        <activity android:name=".stu_signup" />
         <activity android:name=".login_cp" />
         <activity android:name=".tutor_signup" />
         <activity android:name=".tutor_maths_view_atte" />

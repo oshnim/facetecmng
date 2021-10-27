@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-tvdpi/round_bg.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/activity_detector.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_face.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_face_login.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/layout/activity_face_rec.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_history.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_login_cp.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_stu_computing.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_stu_dashboard.xml" value="0.19791666666666666" />
+        <entry key="app/src/main/res/layout/activity_stu_english.xml" value="0.3140625" />
+        <entry key="app/src/main/res/layout/activity_stu_mathematics.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_stu_science.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_stu_signup.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_computing.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_dashboard.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_english.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_login.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_maths.xml" value="0.35572916666666665" />
+        <entry key="app/src/main/res/layout/activity_tutor_science.xml" value="0.35572916666666665" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

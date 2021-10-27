@@ -55,6 +55,7 @@
         android:layout_height="59dp"
         android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
+        android:onClick="goFaceCam"
         android:text="Enter To The Class"
         android:textAllCaps="false"
         android:textColor="#F7F8FB"
