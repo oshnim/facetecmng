@@ -54,6 +54,33 @@ public class login extends AppCompatActivity {
             public void onClick(View v) {
                 String UserName=name.getText().toString();
                 String Password=password.getText().toString();
+
+                if(UserName.isEmpty()){
+                    name.setError(" Name is empty" );
+                    name.requestFocus();
+                    return;
+                }
+
+                if(Password.isEmpty()){
+                    password.setError("Password is empty" );
+                    password.requestFocus();
+                    return;
+                }
+
+                if(Password.length() < 5){
+                    password.setError("Min password length should be 5 characters ");
+                    password.requestFocus();
+                    return;
+
+                }
+
+                if(Password.length() > 10){
+                    password.setError("Max password length should be 10 characters ");
+                    password.requestFocus();
+                    return;
+
+                }
+
                 db.collection("users")
                         .whereEqualTo("username", UserName)
                         .whereEqualTo("password", Password)
@@ -69,12 +96,13 @@ public class login extends AppCompatActivity {
                                             Intent intent = new Intent(login.this,stu_dashboard.class);
                                             startActivity(intent);
                                         }else{
-                                            //Toast.makeText(login.this, "Wrong Username or Password", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(login.this, "Wrong Username or Password", Toast.LENGTH_SHORT).show();
+
                                         }
 
                                     }
                                 } else {
-                                    Log.w(TAG, "Error getting documents.", task.getException());
+                                   Log.w(TAG, "Error getting documents.", task.getException());
                                 }
                             }
                         });

@@ -12,7 +12,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cp_login_btn1"
-        android:layout_width="328dp"
+        android:layout_width="320dp"
         android:layout_height="42dp"
         android:layout_marginTop="492dp"
         android:background="@drawable/custom_btn"
@@ -28,7 +28,7 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cp_login_btn2"
-        android:layout_width="328dp"
+        android:layout_width="320dp"
         android:layout_height="42dp"
         android:layout_marginTop="416dp"
         android:background="@drawable/custom_btn"

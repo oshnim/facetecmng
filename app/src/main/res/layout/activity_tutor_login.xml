@@ -43,13 +43,14 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tutor_username"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:hintTextColor="#252323">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tutor_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="User Name"
@@ -61,7 +62,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tutor_password"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,6 +71,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tutor_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -83,7 +85,7 @@
 
     </LinearLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/tutor_login_btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,12 +109,12 @@
         android:background="@drawable/custom_btn"
         android:textAllCaps="false"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/tutor_login_btn3"
-        android:layout_width="241dp"
-        android:layout_height="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="65dp"
         android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
         android:text="SignIn To Create An Account"

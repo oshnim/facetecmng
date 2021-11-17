@@ -84,34 +84,34 @@
 
 </LinearLayout>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/login_btn1"
-        android:layout_width="match_parent"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
-        android:text="LogIn"
-        android:textColor="#F7F8FB"
+        android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
-        android:textSize="20sp"
+        android:text="LogIn"
         android:textAllCaps="false"
-        android:background="@drawable/custom_btn"/>
+        android:textColor="#F7F8FB"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/login_btn2"
-        android:layout_width="match_parent"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
-        android:text="Tutors LogIn"
-        android:textColor="#FAFAFD"
-        android:fontFamily="@font/cantora_one"
-        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:background="@drawable/custom_btn"
-        android:textAllCaps="false"/>
+        android:fontFamily="@font/cantora_one"
+        android:text="Tutors LogIn"
+        android:textAllCaps="false"
+        android:textColor="#FAFAFD"
+        android:textSize="20sp" />
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         android:id="@+id/login_btn3"
-        android:layout_width="241dp"
+        android:layout_width="315dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="0dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"

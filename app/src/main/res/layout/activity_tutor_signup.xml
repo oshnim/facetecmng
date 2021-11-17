@@ -42,9 +42,10 @@
             app:hintTextColor="#252323">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_fname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Name"
+                android:hint="First Name"
                 android:textColor="@color/black"
                 android:visibility="visible" />
 
@@ -60,6 +61,25 @@
             app:hintTextColor="#252323">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:textColor="@color/black"
+                android:visibility="visible" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            app:hintTextColor="#252323">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="User Name"
@@ -69,28 +89,9 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_username"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
-            android:layout_marginTop="10dp"
-            android:layout_height="wrap_content"
-            app:hintTextColor="#252323">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Email Address"
-                android:textColor="@color/black"
-                android:visibility="visible" />
-
-
-        </com.google.android.material.textfield.TextInputLayout>
-
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_password"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,6 +100,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -110,7 +112,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/tu_con_password"
+
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -119,6 +121,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tu_con_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Confirm Password"
@@ -136,12 +139,13 @@
         android:id="@+id/tu_signup_btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SignIn To Continue"
-        android:textColor="#F7F8FB"
+        android:background="@drawable/custom_btn"
         android:fontFamily="@font/cantora_one"
-        android:textSize="20sp"
+        android:onClick="signup"
+        android:text="SignIn To Continue"
         android:textAllCaps="false"
-        android:background="@drawable/custom_btn"/>
+        android:textColor="#F7F8FB"
+        android:textSize="20sp" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/tu_signup_btn2"

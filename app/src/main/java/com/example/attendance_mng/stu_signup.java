@@ -71,6 +71,39 @@ public class stu_signup extends AppCompatActivity {
         user.put("username", UserName);
         user.put("password", Password);
 
+        if(Name.isEmpty()){
+            name.setError(" Name is empty" );
+            name.requestFocus();
+            return;
+        }
+
+        if(UserName.isEmpty()){
+            userName.setError(" User Name is empty" );
+            userName.requestFocus();
+            return;
+        }
+
+        if(Password.isEmpty()){
+            password.setError("Password is empty" );
+            password.requestFocus();
+            return;
+        }
+
+        if(Password.length() < 5){
+            password.setError("Min password length should be 5 characters ");
+            password.requestFocus();
+            return;
+
+        }
+
+        if(Password.length() > 10){
+            password.setError("Max password length should be 10 characters ");
+            password.requestFocus();
+            return;
+
+        }
+
+
         // Add a new document with a generated ID
         db.collection("users")
                 .add(user)
